@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    position: sticky;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav ul li{
+   font-weight: 700;
+   color: #1f386e;
+   font-size: 18.5px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.megusta{
+
+}
+.megusta  svg{
+    width: 60px;
+    height: 30px;
+}
+ 
+
+
+.logo img {
+    width: 200px;
+    height: 120px;
+}
+
+
+.img1{
+    width: 100%;
+    height: calc(75vh) ;
+}
+
+.img2{
+    width: 100%;
+    height: 100%;
+    background:url(house-1477041_1920.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.texto{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texto p{
+
+}
+
+.textoimg{
+    width: 600px;
+    color: #fff;
+    padding: 15px;
+    background-color: rgba(15, 14, 14, 0.473);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 650;
+}
+
+.titulo-texto{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    white-space: normal; /* esto permitirá los saltos de línea */
+}
+
+
+.boton{
+    width: 140px;
+    height: 40px;
+    background-color: #e52f3c;
+    border: 0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
